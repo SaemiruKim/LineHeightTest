@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Headline.Bold" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Headline.Regular" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body1.Bold" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body1.Regular" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body2.Bold" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body2.Regular" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption1.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">15dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption1.Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">15dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption2.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">14dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption2.Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">14dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Overline.Bold" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">12dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Overline.Regular" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">12dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+</resources>

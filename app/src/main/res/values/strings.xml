@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LineHeightTest</string>
+
+    <string name="line_height_test">최근 5분간의 위치 정보가 없어 오더 목록을\n가져올 수 없습니다. 위치 정보를 업데이트\n하고 있으니 기다려주세요.</string>
+</resources>
