@@ -1,258 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/englishButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:text="영문 테스트"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
+    <Button
+        android:id="@+id/addOneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1dp 추가"/>
 
-            <TextView
-                android:id="@+id/headlineRegular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Headline.Regular"/>
+    <Button
+        android:id="@+id/addTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2dp 추가"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Headline"/>
+    <Button
+        android:id="@+id/detailSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="application details settings"/>
 
-        </LinearLayout>
+    <Button
+        android:id="@+id/developmentSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="application development settings"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="application settings"/>
 
-            <TextView
-                android:id="@+id/headlineBold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Headline.Bold"/>
+    <Button
+        android:id="@+id/notificationSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="app notification settings"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Headline"/>
+    <Button
+        android:id="@+id/channelNotificationSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="channel notification settings"/>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Body1.Regular"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Body1"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Body1.Bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Body1"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Body2.Regular"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Body2"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Body2.Bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Body2"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Caption1.Regular"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Caption1"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Caption1.Bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Caption1"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Caption2.Regular"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Caption2"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Caption2.Bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Caption2"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Overline.Regular"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Overline"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/line_height_test"
-                android:textAppearance="@style/TextAppearance.LineHeightTest.Overline.Bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end|center_vertical"
-                android:text="Overline"/>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-</androidx.core.widget.NestedScrollView>
+</LinearLayout>

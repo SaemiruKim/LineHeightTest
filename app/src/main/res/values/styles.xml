@@ -8,6 +8,42 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextAppearance.LineHeightTest.Headline1.Bold" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Headline1.Regular" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Headline2.Bold" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Headline2.Regular" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
     <style name="TextAppearance.LineHeightTest.Headline.Bold" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
@@ -44,74 +80,154 @@
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Body2.Bold" parent="TextAppearance.MaterialComponents.Body2">
+    <style name="TextAppearance.LineHeightTest.Body2.AddOne.Bold" parent="TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:textSize">14sp</item>
+        <item name="lineHeight">17dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body2.AddOne.Regular" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">17dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption1.AddOne.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">13sp</item>
         <item name="lineHeight">16dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Body2.Regular" parent="TextAppearance.MaterialComponents.Body2">
+    <style name="TextAppearance.LineHeightTest.Caption1.AddOne.Regular" parent="TextAppearance.MaterialComponents.Caption">
         <item name="fontFamily">@font/noto_sans_kr_regular</item>
         <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="lineHeight">16dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Caption1.Bold" parent="TextAppearance.MaterialComponents.Caption">
+    <style name="TextAppearance.LineHeightTest.Caption2.AddOne.Bold" parent="TextAppearance.MaterialComponents.Caption">
         <item name="fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="lineHeight">15dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Caption1.Regular" parent="TextAppearance.MaterialComponents.Caption">
+    <style name="TextAppearance.LineHeightTest.Caption2.AddOne.Regular" parent="TextAppearance.MaterialComponents.Caption">
         <item name="fontFamily">@font/noto_sans_kr_regular</item>
         <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="lineHeight">15dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Caption2.Bold" parent="TextAppearance.MaterialComponents.Caption">
-        <item name="fontFamily">@font/noto_sans_kr_bold</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
-        <item name="android:textSize">12sp</item>
-        <item name="lineHeight">14dp</item>
-        <item name="android:letterSpacing">0</item>
-        <item name="android:lineSpacingMultiplier">1.0</item>
-    </style>
-
-    <style name="TextAppearance.LineHeightTest.Caption2.Regular" parent="TextAppearance.MaterialComponents.Caption">
-        <item name="fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
-        <item name="android:textSize">12sp</item>
-        <item name="lineHeight">14dp</item>
-        <item name="android:letterSpacing">0</item>
-        <item name="android:lineSpacingMultiplier">1.0</item>
-    </style>
-
-    <style name="TextAppearance.LineHeightTest.Overline.Bold" parent="TextAppearance.MaterialComponents.Overline">
+    <style name="TextAppearance.LineHeightTest.Overline.AddOne.Bold" parent="TextAppearance.MaterialComponents.Overline">
         <item name="fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
         <item name="android:textSize">10sp</item>
-        <item name="lineHeight">12dp</item>
+        <item name="lineHeight">13dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>
 
-    <style name="TextAppearance.LineHeightTest.Overline.Regular" parent="TextAppearance.MaterialComponents.Overline">
+    <style name="TextAppearance.LineHeightTest.Overline.AddOne.Regular" parent="TextAppearance.MaterialComponents.Overline">
         <item name="fontFamily">@font/noto_sans_kr_regular</item>
         <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
         <item name="android:textSize">10sp</item>
-        <item name="lineHeight">12dp</item>
+        <item name="lineHeight">13dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="TextAppearance.LineHeightTest.Body2.AddTwo.Bold" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Body2.AddTwo.Regular" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption1.AddTwo.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">18dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption1.AddTwo.Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">18dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption2.AddTwo.Bold" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">17dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Caption2.AddTwo.Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">17dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Overline.AddTwo.Bold" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">15dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="TextAppearance.LineHeightTest.Overline.AddTwo.Regular" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="lineHeight">15dp</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
     </style>

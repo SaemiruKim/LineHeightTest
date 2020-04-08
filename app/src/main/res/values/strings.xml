@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">LineHeightTest</string>
 
+    <string name="english_test">abcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz</string>
     <string name="line_height_test">최근 5분간의 위치 정보가 없어 오더 목록을\n가져올 수 없습니다. 위치 정보를 업데이트\n하고 있으니 기다려주세요.</string>
+    <string name="line_height_test_headline1">최근 5분간의 위치 정보가 없어\n오더 목록을 가져올 수 없습니다.\n위치 정보를 업데이트 하고 있으니\n기다려주세요.</string>
 </resources>
