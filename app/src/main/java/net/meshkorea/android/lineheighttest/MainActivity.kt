@@ -1,14 +1,13 @@
 package net.meshkorea.android.lineheighttest
 
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
-import android.util.Log
+import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
-import io.reactivex.Observable
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,10 +15,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        try {
+            WebView.setWebContentsDebuggingEnabled(true)
+        } catch (e: PackageManager.NameNotFoundException) {
+            // Logger.w(TAG, "Failed to set web contents debugging enabled", e)
+        }
+
         initListeners()
     }
 
     private fun initListeners() {
+        webViewButton.setOnClickListener {
+            startActivity(Intent(this, WebViewActivity::class.java))
+        }
+
         englishButton.setOnClickListener {
             startActivity(Intent(this, EnglishTestActivity::class.java))
         }
